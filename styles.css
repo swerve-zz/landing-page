@@ -1,1 +1,155 @@
+ul{
+    list-style-type: none;
+    display:flex;
+}
 
+li{
+    padding:10px;
+}
+
+.signup-button{
+    padding:10px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.placeholder{
+    height:200px;
+    width:400px;
+    background-color: gray;
+    text-align:center;
+}
+
+.top{
+    display: flex;
+}
+
+.signup{
+    display:flex;
+    padding:20px;
+}
+
+.placeholder{
+    justify-content: right;
+}
+
+.signup-content{
+    padding:20px;
+}
+
+.img-text{
+    display:block;
+    text-align: center;
+}
+
+.signup2{
+    color:white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:10px 20px; 
+}
+
+h1{
+    size: 48px;
+    color: #f9faf8;
+    weight:900;
+}
+
+.header, .footer, .top{
+    background-color: #1f2937;
+}
+
+.footer{
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.top p {
+    color:white;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.logo{
+    size:24px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding:20px;
+}
+
+a{
+    text-decoration:none;
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+h2{
+    font-size:36px;
+    color: #1f2937;
+    weight:900;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    color:#1f2937;
+}
+
+.middle{
+    display:flex;
+}
+
+.btm-signup{
+    background-color: #3882f6;
+    color:white;
+    margin:100px 50px;
+    border-radius:10px;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.quote h3{
+    font-size:24px;
+    weight:900;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style:italic;
+}
+
+.middle img{
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height:100px;
+    width:100px;
+    flex-shrink:0;
+    align-items: center;
+}
+
+.subtext{
+    display:flex;
+    text-align: center;
+}
+
+.quote{
+    padding: 100px;
+}
+
+.quote p{
+    size:48px;
+}
